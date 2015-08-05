@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0B34BA1B6A4B220054AA46 /* L3SDKHistogramGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B34B91B6A4B220054AA46 /* L3SDKHistogramGraphView.m */; };
+		DA0B34BD1B6A6E440054AA46 /* L3SDKHistogramBarLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B34BC1B6A6E440054AA46 /* L3SDKHistogramBarLabel.m */; };
+		DA638F341B6B61AB00EE1D0C /* L3SDKHistogramBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA638F331B6B61AB00EE1D0C /* L3SDKHistogramBarView.m */; };
+		DA6C25E31B720B520077B4BE /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C25E21B720B520077B4BE /* Test.m */; };
+		DA6C25E71B7232D60077B4BE /* L3SDKCGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C25E61B7232D60077B4BE /* L3SDKCGGradient.m */; };
+		DA6C25EA1B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C25E91B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.m */; };
+		DA9B4D861B69407A00CD8B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9B4D851B69407A00CD8B91 /* main.m */; };
+		DA9B4D891B69407A00CD8B91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9B4D881B69407A00CD8B91 /* AppDelegate.m */; };
+		DA9B4D8C1B69407A00CD8B91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9B4D8B1B69407A00CD8B91 /* ViewController.m */; };
+		DA9B4D8F1B69407A00CD8B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9B4D8D1B69407A00CD8B91 /* Main.storyboard */; };
+		DA9B4D911B69407A00CD8B91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9B4D901B69407A00CD8B91 /* Images.xcassets */; };
+		DA9B4D941B69407A00CD8B91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9B4D921B69407A00CD8B91 /* LaunchScreen.xib */; };
+		DA9B4DA01B69407A00CD8B91 /* iOS_HistogramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9B4D9F1B69407A00CD8B91 /* iOS_HistogramTests.m */; };
+		DA9B4DAD1B69411300CD8B91 /* L3SDKHistogramBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9B4DAC1B69411300CD8B91 /* L3SDKHistogramBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9B4D9A1B69407A00CD8B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9B4D781B69407A00CD8B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9B4D7F1B69407A00CD8B91;
+			remoteInfo = "iOS-Histogram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA0B34B81B6A4B220054AA46 /* L3SDKHistogramGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKHistogramGraphView.h; sourceTree = "<group>"; };
+		DA0B34B91B6A4B220054AA46 /* L3SDKHistogramGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKHistogramGraphView.m; sourceTree = "<group>"; };
+		DA0B34BB1B6A6E440054AA46 /* L3SDKHistogramBarLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKHistogramBarLabel.h; sourceTree = "<group>"; };
+		DA0B34BC1B6A6E440054AA46 /* L3SDKHistogramBarLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKHistogramBarLabel.m; sourceTree = "<group>"; };
+		DA638F321B6B61AB00EE1D0C /* L3SDKHistogramBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKHistogramBarView.h; sourceTree = "<group>"; };
+		DA638F331B6B61AB00EE1D0C /* L3SDKHistogramBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKHistogramBarView.m; sourceTree = "<group>"; };
+		DA638F361B6BA49D00EE1D0C /* L3SDKHistogramGraphViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = L3SDKHistogramGraphViewProtocol.h; sourceTree = "<group>"; };
+		DA6C25E11B720B520077B4BE /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		DA6C25E21B720B520077B4BE /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		DA6C25E51B7232D60077B4BE /* L3SDKCGGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKCGGradient.h; sourceTree = "<group>"; };
+		DA6C25E61B7232D60077B4BE /* L3SDKCGGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKCGGradient.m; sourceTree = "<group>"; };
+		DA6C25E81B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKHistogramBarLinearGradient.h; sourceTree = "<group>"; };
+		DA6C25E91B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKHistogramBarLinearGradient.m; sourceTree = "<group>"; };
+		DA9B4D801B69407A00CD8B91 /* iOS-Histogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Histogram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B4D841B69407A00CD8B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9B4D851B69407A00CD8B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA9B4D871B69407A00CD8B91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA9B4D881B69407A00CD8B91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA9B4D8A1B69407A00CD8B91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA9B4D8B1B69407A00CD8B91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA9B4D8E1B69407A00CD8B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA9B4D901B69407A00CD8B91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA9B4D931B69407A00CD8B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA9B4D991B69407A00CD8B91 /* iOS-HistogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-HistogramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9B4D9E1B69407A00CD8B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9B4D9F1B69407A00CD8B91 /* iOS_HistogramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HistogramTests.m; sourceTree = "<group>"; };
+		DA9B4DAB1B69411300CD8B91 /* L3SDKHistogramBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKHistogramBarItem.h; sourceTree = "<group>"; };
+		DA9B4DAC1B69411300CD8B91 /* L3SDKHistogramBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKHistogramBarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9B4D7D1B69407A00CD8B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9B4D961B69407A00CD8B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6C25DA1B71FECE0077B4BE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C25DB1B71FECE0077B4BE /* CoreGraphics */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA6C25DB1B71FECE0077B4BE /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C25E51B7232D60077B4BE /* L3SDKCGGradient.h */,
+				DA6C25E61B7232D60077B4BE /* L3SDKCGGradient.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		DA9B4D771B69407A00CD8B91 = {
+			isa = PBXGroup;
+			children = (
+				DA9B4D821B69407A00CD8B91 /* iOS-Histogram */,
+				DA9B4D9C1B69407A00CD8B91 /* iOS-HistogramTests */,
+				DA9B4D811B69407A00CD8B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9B4D811B69407A00CD8B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B4D801B69407A00CD8B91 /* iOS-Histogram.app */,
+				DA9B4D991B69407A00CD8B91 /* iOS-HistogramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9B4D821B69407A00CD8B91 /* iOS-Histogram */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B4DA91B6940E900CD8B91 /* L3SDK */,
+				DA9B4D871B69407A00CD8B91 /* AppDelegate.h */,
+				DA9B4D881B69407A00CD8B91 /* AppDelegate.m */,
+				DA9B4D8A1B69407A00CD8B91 /* ViewController.h */,
+				DA9B4D8B1B69407A00CD8B91 /* ViewController.m */,
+				DA9B4D8D1B69407A00CD8B91 /* Main.storyboard */,
+				DA9B4D901B69407A00CD8B91 /* Images.xcassets */,
+				DA9B4D921B69407A00CD8B91 /* LaunchScreen.xib */,
+				DA9B4D831B69407A00CD8B91 /* Supporting Files */,
+				DA6C25E11B720B520077B4BE /* Test.h */,
+				DA6C25E21B720B520077B4BE /* Test.m */,
+			);
+			path = "iOS-Histogram";
+			sourceTree = "<group>";
+		};
+		DA9B4D831B69407A00CD8B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B4D841B69407A00CD8B91 /* Info.plist */,
+				DA9B4D851B69407A00CD8B91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9B4D9C1B69407A00CD8B91 /* iOS-HistogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B4D9F1B69407A00CD8B91 /* iOS_HistogramTests.m */,
+				DA9B4D9D1B69407A00CD8B91 /* Supporting Files */,
+			);
+			path = "iOS-HistogramTests";
+			sourceTree = "<group>";
+		};
+		DA9B4D9D1B69407A00CD8B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B4D9E1B69407A00CD8B91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9B4DA91B6940E900CD8B91 /* L3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C25DA1B71FECE0077B4BE /* Helpers */,
+				DA9B4DAA1B6940E900CD8B91 /* UIKit */,
+			);
+			path = L3SDK;
+			sourceTree = "<group>";
+		};
+		DA9B4DAA1B6940E900CD8B91 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B4DAB1B69411300CD8B91 /* L3SDKHistogramBarItem.h */,
+				DA9B4DAC1B69411300CD8B91 /* L3SDKHistogramBarItem.m */,
+				DA0B34BB1B6A6E440054AA46 /* L3SDKHistogramBarLabel.h */,
+				DA0B34BC1B6A6E440054AA46 /* L3SDKHistogramBarLabel.m */,
+				DA6C25E81B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.h */,
+				DA6C25E91B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.m */,
+				DA638F321B6B61AB00EE1D0C /* L3SDKHistogramBarView.h */,
+				DA638F331B6B61AB00EE1D0C /* L3SDKHistogramBarView.m */,
+				DA0B34B81B6A4B220054AA46 /* L3SDKHistogramGraphView.h */,
+				DA0B34B91B6A4B220054AA46 /* L3SDKHistogramGraphView.m */,
+				DA638F361B6BA49D00EE1D0C /* L3SDKHistogramGraphViewProtocol.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9B4D7F1B69407A00CD8B91 /* iOS-Histogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9B4DA31B69407A00CD8B91 /* Build configuration list for PBXNativeTarget "iOS-Histogram" */;
+			buildPhases = (
+				DA9B4D7C1B69407A00CD8B91 /* Sources */,
+				DA9B4D7D1B69407A00CD8B91 /* Frameworks */,
+				DA9B4D7E1B69407A00CD8B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Histogram";
+			productName = "iOS-Histogram";
+			productReference = DA9B4D801B69407A00CD8B91 /* iOS-Histogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9B4D981B69407A00CD8B91 /* iOS-HistogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9B4DA61B69407A00CD8B91 /* Build configuration list for PBXNativeTarget "iOS-HistogramTests" */;
+			buildPhases = (
+				DA9B4D951B69407A00CD8B91 /* Sources */,
+				DA9B4D961B69407A00CD8B91 /* Frameworks */,
+				DA9B4D971B69407A00CD8B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9B4D9B1B69407A00CD8B91 /* PBXTargetDependency */,
+			);
+			name = "iOS-HistogramTests";
+			productName = "iOS-HistogramTests";
+			productReference = DA9B4D991B69407A00CD8B91 /* iOS-HistogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9B4D781B69407A00CD8B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DomenicoVacchiano;
+				TargetAttributes = {
+					DA9B4D7F1B69407A00CD8B91 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DA9B4D981B69407A00CD8B91 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DA9B4D7F1B69407A00CD8B91;
+					};
+				};
+			};
+			buildConfigurationList = DA9B4D7B1B69407A00CD8B91 /* Build configuration list for PBXProject "iOS-Histogram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA9B4D771B69407A00CD8B91;
+			productRefGroup = DA9B4D811B69407A00CD8B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9B4D7F1B69407A00CD8B91 /* iOS-Histogram */,
+				DA9B4D981B69407A00CD8B91 /* iOS-HistogramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9B4D7E1B69407A00CD8B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9B4D8F1B69407A00CD8B91 /* Main.storyboard in Resources */,
+				DA9B4D941B69407A00CD8B91 /* LaunchScreen.xib in Resources */,
+				DA9B4D911B69407A00CD8B91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9B4D971B69407A00CD8B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9B4D7C1B69407A00CD8B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9B4D8C1B69407A00CD8B91 /* ViewController.m in Sources */,
+				DA638F341B6B61AB00EE1D0C /* L3SDKHistogramBarView.m in Sources */,
+				DA9B4D891B69407A00CD8B91 /* AppDelegate.m in Sources */,
+				DA6C25E31B720B520077B4BE /* Test.m in Sources */,
+				DA9B4DAD1B69411300CD8B91 /* L3SDKHistogramBarItem.m in Sources */,
+				DA9B4D861B69407A00CD8B91 /* main.m in Sources */,
+				DA0B34BA1B6A4B220054AA46 /* L3SDKHistogramGraphView.m in Sources */,
+				DA6C25E71B7232D60077B4BE /* L3SDKCGGradient.m in Sources */,
+				DA0B34BD1B6A6E440054AA46 /* L3SDKHistogramBarLabel.m in Sources */,
+				DA6C25EA1B7234C90077B4BE /* L3SDKHistogramBarLinearGradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9B4D951B69407A00CD8B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9B4DA01B69407A00CD8B91 /* iOS_HistogramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9B4D9B1B69407A00CD8B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9B4D7F1B69407A00CD8B91 /* iOS-Histogram */;
+			targetProxy = DA9B4D9A1B69407A00CD8B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA9B4D8D1B69407A00CD8B91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9B4D8E1B69407A00CD8B91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA9B4D921B69407A00CD8B91 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9B4D931B69407A00CD8B91 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA9B4DA11B69407A00CD8B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA9B4DA21B69407A00CD8B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA9B4DA41B69407A00CD8B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Histogram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA9B4DA51B69407A00CD8B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Histogram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA9B4DA71B69407A00CD8B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-HistogramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Histogram.app/iOS-Histogram";
+			};
+			name = Debug;
+		};
+		DA9B4DA81B69407A00CD8B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-HistogramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Histogram.app/iOS-Histogram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9B4D7B1B69407A00CD8B91 /* Build configuration list for PBXProject "iOS-Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9B4DA11B69407A00CD8B91 /* Debug */,
+				DA9B4DA21B69407A00CD8B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9B4DA31B69407A00CD8B91 /* Build configuration list for PBXNativeTarget "iOS-Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9B4DA41B69407A00CD8B91 /* Debug */,
+				DA9B4DA51B69407A00CD8B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9B4DA61B69407A00CD8B91 /* Build configuration list for PBXNativeTarget "iOS-HistogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9B4DA71B69407A00CD8B91 /* Debug */,
+				DA9B4DA81B69407A00CD8B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9B4D781B69407A00CD8B91 /* Project object */;
+}
