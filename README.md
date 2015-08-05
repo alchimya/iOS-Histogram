@@ -2,7 +2,6 @@
 A very simple histogram graph built with Core Graphics.
 
 <br/> 
-![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/graph_specs.jpg)
 
 # How to use?
 This package consists of the following classes:
