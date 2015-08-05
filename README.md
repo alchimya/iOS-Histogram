@@ -2,6 +2,8 @@
 A very simple histogram graph built with Core Graphics.
 
 <br/> 
+![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/v_graph.jpg)
+![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/h_graph.jpg)
 
 # How to use?
 This package consists of the following classes:
@@ -10,6 +12,8 @@ This package consists of the following classes:
 - <b>L3SDKHistogramBarLabel</b>: it defines the bar linear gradient start and end colors
 - <b>L3SDKHistogramBarView</b>: it defines the bar view
 - <b>L3SDKHistogramGraphView</b>: it defines the graph view (a composite view of L3SDKHistogramBarView objects)
+
+![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/graph.jpg)
 
 <b>L3SDKHistogramBarItem</b>
 <h5>properties</h5>
@@ -150,3 +154,6 @@ typedef enum : NSUInteger {
     [self.graph addBar:bar7];
 
 ```
+
+<br/> 
+![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/iOS-Histogram.gif)
