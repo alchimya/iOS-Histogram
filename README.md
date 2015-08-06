@@ -5,7 +5,7 @@ A very simple histogram graph built with Core Graphics.
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/v_graph.jpg)
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Histogram/master/screenshots/h_graph.jpg)
 
-# How to use?
+# How to use
 This package consists of the following classes:
 - <b>L3SDKHistogramBarItem</b>: it defines the bar graph parameters
 - <b>L3SDKHistogramBarLabel</b>: it defines the label bar parameters
