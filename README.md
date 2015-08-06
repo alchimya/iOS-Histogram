@@ -9,7 +9,7 @@ A very simple histogram graph built with Core Graphics.
 This package consists of the following classes:
 - <b>L3SDKHistogramBarItem</b>: it defines the bar graph parameters
 - <b>L3SDKHistogramBarLabel</b>: it defines the label bar parameters
-- <b>L3SDKHistogramBarLabel</b>: it defines the bar linear gradient start and end colors
+- <b>L3SDKHistogramBarLinearGradient</b>: it defines the bar linear gradient start and end colors
 - <b>L3SDKHistogramBarView</b>: it defines the bar view
 - <b>L3SDKHistogramGraphView</b>: it defines the graph view (a composite view of L3SDKHistogramBarView objects)
 
